@@ -1,5 +1,5 @@
 # Pi-XO
-Raspberry Pi Zero game console for PICO-8 other games
+Raspberry Pi Zero game console for use with PICO-8 
 
 The hardware and software is sill under development. 
 Rev. 01. board  error:
