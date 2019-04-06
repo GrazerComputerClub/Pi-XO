@@ -1,6 +1,10 @@
 # Pi-XO
 Raspberry Pi Zero game console for PICO-8 other games
 
+The hardware and software is sill under development. 
+Rev. 01. board  error:
+  - speaker connected to GND (do not wire speaker to PCB), please connect speaker to audio amp. output via wire.  
+
 ## Features
 
 - **Multiple display options** - 160x128 or 320x240   
