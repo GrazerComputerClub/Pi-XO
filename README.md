@@ -3,7 +3,8 @@ Raspberry Pi Zero game console for use with PICO-8
 
 The hardware and software is sill under development. 
 Rev. 01. board  error:
-  - speaker connected to GND (do not wire speaker to PCB), please connect speaker to audio amp. output via wire.  
+  - speaker connected to GND (do not wire speaker to PCB), please connect speaker to audio amp. output via wire.
+  - ADC input direct connected to batterie A result in applying voltage to 3.3v supply if batterie is attached - do not wire ADC IC 
 
 ## Features
 
