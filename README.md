@@ -71,7 +71,7 @@ Rev. 01. board  error:
  1 x MCP3202 (IC1, do not connect)  
  1 x Headphone connector (X2, do not connect) - https://www.reichelt.at/jack-socket-3-5-mm-pcb-with-switch-contact-ebs-35-p7301.html
  2 x Diode 1N4001 (D2 or D4, D1 or D3)  
- 1 x Display 160x128 11-pin (JP7) or 8-pin (JP11)  
-     Display 320x240 9-pin (JB8) 
+ 1 x Display 160x128 ST7735 11-pin (JP7) or 8-pin (JP11) - https://www.ebay.de/sch/i.html?_nkw=1.8+128x160+ST7735
+     Display 320x240 illi 9-pin (JB8) - https://www.ebay.de/sch/i.html?_nkw=2.2+ILI9341+240x320
  
  
