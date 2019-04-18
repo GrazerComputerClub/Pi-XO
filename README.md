@@ -5,12 +5,12 @@ The hardware and software is sill under development!
 ## Errata
 
 Rev. 01. board  error:
-  - *Error:* speaker connected to GND.  
-    *Solution:* Do not wire speaker to PCB, please connect speaker to audio amp. output via wire.  
+  - *Error:* Speaker- an audio amp. output- connected to GND.  
+    *Solution:* Do not wire speaker and audio amp. output (PAD5 and PAD6) to PCB, please connect speaker to audio amp. output via wire.  
     *Drawback:* Headphone connector not working 
   - *Error:*  ADC input direct connected to batterie A result in applying ~0.6 V to 3.3 V supply if batterie is attached and device is off.  
-    *Solution:* Do not assable MCP3202 (IC1).  
-    *Drawback:* No batterie monitoring possible
+    *Solution:* Do not assamble MCP3202 (IC1).  
+    *Drawback:* No batterie monitoring possible.
 
 ## Features
 
