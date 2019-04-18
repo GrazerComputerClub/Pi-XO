@@ -57,7 +57,7 @@ Rev. 01. board  error:
  1 x LED bar 8 segments (align right site)  
  1 x Resistor array 1K (RN1)  
  2 x Vibration motor (JP4, JP5) - https://www.neuhold-elektronik.at/catshop/product_info.php?products_id=6971  
- 2 x AA Batterie holder (needs DC/DC Step Up Converter) or Dual AAA Batterie holder (no DC/DC Step Up Converter needed)  
+ 2 x AA Batterie holder (needs DC/DC Step Up Converter) or Dual AAA Batterie holder (no DC/DC Step Up Converter needed) - https://www.reichelt.at/battery-holder-1x-mignon-aa-halter-1xaap-p113168.html  
  2 x BC527B transisior (T1, T2)  
  2 x BC557B transisior (Q2)  
  2 x Resistor 2K2 Ohm (Transistor base vibration motor: R1,R2)
