@@ -1,10 +1,16 @@
 # Pi-XO
 Raspberry Pi Zero game console for use with PICO-8 
+The hardware and software is sill under development!  
 
-The hardware and software is sill under development. 
+## Errata
+
 Rev. 01. board  error:
-  - speaker connected to GND (do not wire speaker to PCB), please connect speaker to audio amp. output via wire.
-  - ADC input direct connected to batterie A result in applying voltage to 3.3v supply if batterie is attached - do not wire ADC IC 
+  - speaker connected to GND.  
+    Solution: Do not wire speaker to PCB, please connect speaker to audio amp. output via wire.  
+    Drawback: Headphone connector not working 
+  - ADC input direct connected to batterie A result in applying ~0.6 V to 3.3 V supply if batterie is attached and device is off.  
+    Solution: Do not assable MCP3202 (IC1).  
+    Drawback: No batterie monitoring possible
 
 ## Features
 
