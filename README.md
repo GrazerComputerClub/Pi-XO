@@ -26,7 +26,7 @@ Rev. 01. board  error:
    * Display 2: 160x128 Display mounted right side 
    * Display 3: 160x128 Display mounted left side 
 
-# Functions
+## Functions
 
 - Fn-Button and Up/Down-Button: Volume control
 - Fn-Button and Left/Right-Button: Display brightness (Display 1 and 2)
@@ -36,3 +36,19 @@ Rev. 01. board  error:
 ![PCB Top](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Pi-XO.png)
 
 ![Pi-XO](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Pi-XO.jpg)
+
+# Assambling
+
+## Components list
+	
+ 1 x Female pin header socket 2x20
+ 1 x Switch 3 Pin (S9)
+ 8 x Tactile switch 6x6mm (S1-S7)  
+ 1 x Audio amplifier board PAM8302 (JP3, do not connect PAD5 and PAD6)
+ 1 x Speaker 8 Ohm (connect to amplifier board PAM8302 Output via wire)
+ 1 x LED bar 8 components (right site)
+ 1 x Resistor array 1K (RN1) 
+ 2 x Vibration motor (JP4, JP5)
+ 
+ 
+ 
