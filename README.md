@@ -58,14 +58,14 @@ Rev. 01. board  error:
  1 x Resistor array 1K (RN1)  
  2 x Vibration motor (JP4, JP5) - https://www.neuhold-elektronik.at/catshop/product_info.php?products_id=6971  
  2 x AA Batterie holder (needs DC/DC Step Up Converter) or Dual AAA Batterie holder (no DC/DC Step Up Converter needed) - https://www.reichelt.at/battery-holder-1x-mignon-aa-halter-1xaap-p113168.html  
- 2 x BC527B transisior (T1, T2)  
+ 2 x BC547B transisior (T1, T2)  
  2 x BC557B transisior (Q2)  
  2 x Resistor 2K2 Ohm (Transistor base vibration motor: R1,R2)
  1 x Resistor 270 Ohm (Audio filter: R3)  
  1 x Resistor 150 Ohm (Audio filter: R4)  
  2 x 1K Ohm (R5, R6) - protection UART pin  
  1 x 1K (R7) - base resistor transisitor background LED display  
- 1 x Capacitor 33 nF (C1)  
+ 2 x Capacitor 33 nF (C1, C5)  
  1 x Electrolytic capacitor 10 uF/6.3 V (C2)  
  1 x Electrolytic capacitor 300 uF/6.3 V (C6)  
  1 x MCP3202 (IC1, do not connect)  
