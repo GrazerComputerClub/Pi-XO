@@ -49,25 +49,25 @@ Rev. 01. board  error:
 
 ## Components list
 	
- 1 x Female pin header socket 2x20  
- 1 x Switch 3-pin (S9) - Device on/off  
- 1 x 2Pin + Jumper or Switch 2-pin (S6)- Vibration motors on/off  
- 8 x Tactile switch 6x6mm (S1-S7)  
+ 1 x Female pin header socket 2x20  (JP1)
+ 1 x Switch 3-pin (S9, Device on/off)  
+ 1 x 2Pin + Jumper or Switch 2-pin (JP6, vibration motors on/off)    
+ 8 x Tactile switch 6x6mm (S1-S8)  
      https://www.reichelt.com/at/en/short-stroke-key-6x6-mm-height-5-0-mm-12-v-vertical-taster-9302-p44579.html  
  1 x Audio amplifier board PAM8302 (JP3, do not connect PAD5 and PAD6)  
      https://www.ebay.de/sch/i.html?_nkw=PAM8302  
  1 x DD0606SA_3V7 - DC/DC Step Up Converter to 3.7V (JP2)  
      https://www.google.com/search?q=DD0606SA_3V7  
- 1 x Speaker 8 Ohm (connect to amplifier board PAM8302 Output via wire)  
+ 1 x Speaker 8 Ohm (connect to amplifier board PAM8302 Output via wire, SP1)  
      https://www.reichelt.com/at/en/metal-speaker-soldered-connection-lsm-36m-b-p145887.html  
      https://www.neuhold-elektronik.at/catshop/product_info.php?products_id=6645  
- 1 x LED bar 8 segments (align right site)  
+ 1 x LED bar 8 segments (LB10, align right site)  
      https://www.ebay.at/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=8-Segment+Red+Color+Bar  
  1 x Resistor array 1K (RN1)  
      https://secure.reichelt.at/resistor-network-8-res-9-pin-1-0-k-x2126-sil-9-8-1-0k-p18012.html  
  2 x Vibration motor (JP4, JP5)  
      https://www.neuhold-elektronik.at/catshop/product_info.php?products_id=6971  
- 2 x AA Batterie holder (needs DC/DC Step Up Converter) or Dual AAA Batterie holder (no DC/DC Step Up Converter needed)  
+ 2 x AA Batterie holder (needs DC/DC Step Up Converter) or dual AAA Batterie holder (no DC/DC Step Up Converter needed) (PAD1, PAD2, PAD3, PAD4)  
      https://secure.reichelt.at/battery-holder-1x-mignon-aa-halter-1xaap-p113168.html  
      https://secure.reichelt.at/holder-for-1-mignon-cell-aa-solder-tag-halter-1xum3-lf-p8434.html  
      https://secure.reichelt.at/battery-holder-2x-mignon-aa-halter-2xaaz-p113169.html  
@@ -75,15 +75,14 @@ Rev. 01. board  error:
      https://secure.reichelt.at/npn-to-92-transistor-45-v-0-1-a-0-5-w-bc-547b-p5006.html  
  1 x BC557B transisior (Q2)  
      https://secure.reichelt.at/transistor-pnp-to-92-45-v-0-1-a-0-5-w-bc-557b-p35845.html  
- 2 x Resistor 2K2 Ohm (Transistor base vibration motor: R1,R2)  
+ 2 x Resistor 2K2 Ohm (Transistor base vibration motor: R1, R2)  
  1 x Resistor 270 Ohm (Audio filter: R3)  
  1 x Resistor 150 Ohm (Audio filter: R4)  
- 2 x 1K Ohm (R5, R6) - protection UART pin  
- 1 x 1K (base resistor transisitor background LED display: R7)  
- 1 x Capacitor 100 nF (C1)  
- 2 x Capacitor 33 nF (C5)  
+ 3 x Resistor 1K Ohm (protection UART: R5, R6; transisitor background LED display: R7)   
+ 1 x Capacitor 33 nF (C1)  
  1 x Electrolytic capacitor 10 uF/6.3 V (C2)  
- 1 x Electrolytic capacitor 300 uF/6.3 V (C6)  
+ 1 x Capacitor 100 nF (C5)  
+ 1 x Electrolytic capacitor 330 uF/6.3 V (C6)  
  1 x MCP3202 (IC1, do not connect)  
      https://www.conrad.at/de/p/microchip-technology-mcp3202-ci-p-datenerfassungs-ic-analog-digital-wandler-adc-extern-pdip-8-651461.html  
  1 x Headphone connector (X2, do not connect)  
