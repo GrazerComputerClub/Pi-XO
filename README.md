@@ -25,7 +25,7 @@ Rev. 01. board  error:
 ## OS installation
 
 - Download latest Raspjamming-Image https://github.com/GrazerComputerClub/Raspjamming-Image and flash to SD card
-- Unzip PICO-8-rasp.zip to boot partiton (Executabe needed pico-8/pico8) 
+- Unzip PICO-8-rasp.zip (https://www.lexaloffle.com/pico-8.php) to boot partiton (Executabe needed pico-8/pico8) from 
 - Activate line 'include Pi-XO.txt' in config.txt file
 - Activate correct Display Option 1-3 including resolution in Pi-XO.txt file 
    * Display 1: 320x240 Display mounted far right side 
