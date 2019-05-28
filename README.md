@@ -32,9 +32,9 @@ Rev. 01. board  error:
 - Unzip PICO-8-rasp.zip (https://www.lexaloffle.com/pico-8.php) to boot partiton (Executabe needed pico-8/pico8) from 
 - Activate line 'include Pi-XO.txt' in config.txt file
 - Activate correct Display Option 1-3 including resolution in Pi-XO.txt file 
-   * Display 1: 320x240 Display mounted far right side 
-   * Display 2: 160x128 Display mounted right side 
-   * Display 3: 160x128 Display mounted left side 
+   * Display 1: 320x240 Display mounted far right side (9 pin, BK-LED regulation)
+   * Display 2: 160x128 Display mounted right side (8 pin, BK-LED regulation) 
+   * Display 3: 160x128 Display mounted left side  (11 pin, BK-LED fixed on) 
 
 ## Functions
 
