@@ -2,6 +2,10 @@
 Raspberry Pi Zero game console for use with PICO-8 
 The hardware and software is sill under development!  
 
+## In Action
+
+[![Pi-XO Gaming](https://img.youtube.com/vi/vgGREFB0JgY/0.jpg)](https://www.youtube.com/watch?v=vgGREFB0JgY)
+
 ## Errata
 
 Rev. 01. board  error:
