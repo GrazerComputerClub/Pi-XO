@@ -1,6 +1,6 @@
 # Pi-XO
 Raspberry Pi Zero game console for use with PICO-8.   
-The hardware and software is sill under development!  
+The hardware and software is still under development!  
 
 ## In Action
 
@@ -12,16 +12,16 @@ Rev. 01. board  error:
   - *Error:* Speaker- an audio amp. output- connected to GND.  
     *Solution:* Do not wire speaker and audio amp. output (PAD5 and PAD6) to PCB, please connect speaker to audio amp. output via wire.  
     *Drawback:* Headphone connector not working 
-  - *Error:*  ADC input direct connected to batterie A result in applying ~0.6 V to 3.3 V supply if batterie is attached and device is off.  
-    *Solution:* Do not assamble MCP3202 (IC1).  
-    *Drawback:* No batterie monitoring possible.
+  - *Error:*  ADC input direct connected to batterie A result in applying ~0.6 V to 3.3 V supply if battery is attached and device is off.  
+    *Solution:* Do not assemble MCP3202 (IC1).  
+    *Drawback:* No battery monitoring possible.
 
 ## Features
 
 - **Multiple display options** - 160x128 or 320x240   
-- **Audio (speaker / handphone)**
-- **Classic dual NiMH AA-Batterie supply**
-- **Batterie monitoring**
+- **Audio (speaker / headphone)**
+- **Classic dual NiMH AA-Batteries supply**
+- **Battery monitoring**
 - **GPIOs (LED bar)**
 - **Vibration motors**
 - **Low cost**
@@ -29,7 +29,7 @@ Rev. 01. board  error:
 ## OS installation
 
 - Download latest Raspjamming-Image https://github.com/GrazerComputerClub/Raspjamming-Image and flash to SD card
-- Unzip PICO-8-rasp.zip (https://www.lexaloffle.com/pico-8.php) to boot partiton (Executabe needed pico-8/pico8) from 
+- Unzip PICO-8-rasp.zip (https://www.lexaloffle.com/pico-8.php) to boot partition (Executable needed pico-8/pico8) from 
 - Activate line 'include Pi-XO.txt' in config.txt file
 - Activate correct Display Option 1-3 including resolution in Pi-XO.txt file 
    * Display 1: 320x240 Display mounted far right side (9 pin, BK-LED regulation)
@@ -49,7 +49,7 @@ Rev. 01. board  error:
 
 ![Pi-XO](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Pi-XO.jpg)
 
-# Assambling
+# Assembling
 
 ## Components list
 	
@@ -71,18 +71,18 @@ Rev. 01. board  error:
      https://secure.reichelt.at/resistor-network-8-res-9-pin-1-0-k-x2126-sil-9-8-1-0k-p18012.html  
  2 x Vibration motor (JP4, JP5)  
      https://www.neuhold-elektronik.at/catshop/product_info.php?products_id=6971  
- 2 x AA Batterie holder (needs DC/DC Step Up Converter) or dual AAA Batterie holder (no DC/DC Step Up Converter needed) (PAD1, PAD2, PAD3, PAD4)  
+ 2 x AA Batterie holder (needs DC/DC Step Up Converter) or dual AAA Batteries holder (no DC/DC Step Up Converter needed) (PAD1, PAD2, PAD3, PAD4)  
      https://secure.reichelt.at/battery-holder-1x-mignon-aa-halter-1xaap-p113168.html  
      https://secure.reichelt.at/holder-for-1-mignon-cell-aa-solder-tag-halter-1xum3-lf-p8434.html  
      https://secure.reichelt.at/battery-holder-2x-mignon-aa-halter-2xaaz-p113169.html  
- 2 x BC547B transisior (T1, T2)  
+ 2 x BC547B transiior (T1, T2)  
      https://secure.reichelt.at/npn-to-92-transistor-45-v-0-1-a-0-5-w-bc-547b-p5006.html  
- 1 x BC557B transisior (Q2)  
+ 1 x BC557B transistor (Q2)  
      https://secure.reichelt.at/transistor-pnp-to-92-45-v-0-1-a-0-5-w-bc-557b-p35845.html  
  2 x Resistor 2K2 Ohm (Transistor base vibration motor: R1, R2)  
  1 x Resistor 270 Ohm (Audio filter: R3)  
  1 x Resistor 150 Ohm (Audio filter: R4)  
- 3 x Resistor 1K Ohm (protection UART: R5, R6; transisitor background LED display: R7)   
+ 3 x Resistor 1K Ohm (protection UART: R5, R6; transistor background LED display: R7)   
  1 x Capacitor 33 nF (C1)  
  1 x Electrolytic capacitor 10 uF/6.3 V (C2)  
  1 x Capacitor 100 nF (C5)  
