@@ -18,7 +18,7 @@ Rev. 01. board  error:
     **Drawback:** No battery monitoring possible.
   - **Error:**  Dual NiMH AA-Batteries in combination with DD0606SA_3V7 - DC/DC Step Up Converter cannot provide enough current for Wi-Fi operation (consumes up to 250 mA).  
     **Solution 1:** Use Raspberry Pi Zero v1.3 or switch off Wi-Fi at Raspberry Pi Zero W/WH.  
-    **Drawback:** Download of games only via Eternet OTG Mode possible  
+    **Drawback:** Download of games only via Eternet OTG Mode possible or manual copy to sd card  
     **Solution 2:** Use 4xAAA NiMH battery without DC/DC Step Up Converter 
     
 ## Features
