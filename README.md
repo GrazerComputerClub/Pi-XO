@@ -10,16 +10,16 @@ The hardware and software is still under development!
 ## Errata
 
 Rev. 01. board  error:
-  - *Error:* Speaker- an audio amp. output- connected to GND.  
-    *Solution:* Do not wire speaker and audio amp. output (PAD5 and PAD6) to PCB, please connect speaker to audio amp. output via wire.  
-    *Drawback:* Headphone connector not working 
-  - *Error:*  ADC input direct connected to batterie A result in applying ~0.6 V to 3.3 V supply if battery is attached and device is off.  
-    *Solution:* Do not assemble MCP3202 (IC1).  
-    *Drawback:* No battery monitoring possible.
-  - *Error:*  Dual NiMH AA-Batteries in combination with DD0606SA_3V7 - DC/DC Step Up Converter cannot provide enough current for Wi-Fi operation (consumes up to 250 mA). 
-    *Solution 1: Use Raspberry Pi Zero v1.3 or switch off Wi-Fi at Raspberry Pi Zero W/WH.  
-    *Drawback:* Download of games only via Eternet OTG Mode possible
-    *Solution 2: Use 4xAAA battery without DC/DC Step Up Converter   
+  - **Error:** Speaker- an audio amp. output- connected to GND.  
+    **Solution:** Do not wire speaker and audio amp. output (PAD5 and PAD6) to PCB, please connect speaker to audio amp. output via wire.  
+    **Drawback:** Headphone connector not working 
+  - **Error:**  ADC input direct connected to batterie A result in applying ~0.6 V to 3.3 V supply if battery is attached and device is off.  
+    **Solution:** Do not assemble MCP3202 (IC1).  
+    **Drawback:** No battery monitoring possible.
+  - **Error:**  Dual NiMH AA-Batteries in combination with DD0606SA_3V7 - DC/DC Step Up Converter cannot provide enough current for Wi-Fi operation (consumes up to 250 mA). 
+    **Solution 1:** Use Raspberry Pi Zero v1.3 or switch off Wi-Fi at Raspberry Pi Zero W/WH.  
+    **Drawback:** Download of games only via Eternet OTG Mode possible
+    **Solution 2:** Use 4xAAA battery without DC/DC Step Up Converter   
     
 ## Features
 
