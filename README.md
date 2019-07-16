@@ -114,4 +114,4 @@ Rev. 01. board  error:
  - HAT EEPROM
  - 3 stage resistor divider 100K (10k+1K) for each ADC input, 1:10 divider
  - ADC input work with USB connector supply too
- 
+ - Remove the optional big diode 
