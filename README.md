@@ -1,5 +1,3 @@
-# Project discontinued!
-Please look to fork https://github.com/mstroh76/Pi-XO
 
 # Pi-XO
 Raspberry Pi Zero game console for use with PICO-8.   
