@@ -111,4 +111,7 @@ Rev. 01. board  error:
  - connect vibration motors to GPIO port with default pull-down resistor
  - optimize for 4xAAA or 3xAA and remove DC-DC converter
  - FET instead of transistor for backlight control
+ - HAT EEPROM
+ - 3 stage resistor divider 100K (10k+1K) for each ADC input, 1:10 divider
+ - ADC input work with USB connector supply too
  
