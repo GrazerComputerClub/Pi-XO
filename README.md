@@ -102,16 +102,3 @@ Rev. 01. board  error:
      2,2" Display 320x240 ILI9341 9-pin (JB8) - https://www.ebay.de/sch/i.html?_nkw=2.2+ILI9341+240x320  
  
  
- # Improvements for next hardware release
-
- - Solve errata
- - Secure operation with USB connector supply together with batteries
- - Audio and vibration motors works with direct USB connector supply
- - 8x instead of 10x LED-bar
- - connect vibration motors to GPIO port with default pull-down resistor
- - optimize for 4xAAA or 3xAA and remove DC-DC converter
- - FET instead of transistor for backlight control
- - HAT EEPROM
- - 3 stage resistor divider 100K (10k+1K) for each ADC input, 1:10 divider
- - ADC input work with USB connector supply too
- - Remove the optional big diode 
