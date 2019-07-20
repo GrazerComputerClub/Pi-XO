@@ -1,7 +1,7 @@
 
 # Pi-XO
 Raspberry Pi Zero game console for use with PICO-8.   
-The hardware and software is still under development!  
+Development discontinued  
 
 ## In Action
 
