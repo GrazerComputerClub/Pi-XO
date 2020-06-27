@@ -41,24 +41,25 @@ Rev. 01. board  error:
    * Display 2: 160x128 Display mounted right side (8 pin, BK-LED regulation) 
    * Display 3: 160x128 Display mounted left side  (11 pin, BK-LED fixed on) 
 
-## Functions
+## Functions button
 
 - Fn-Button and Up/Down-Button: Volume control
 - Fn-Button and Left/Right-Button: Display brightness (Display 1 and 2)
 - Fn-Button and P-Button: Shutdown
 
+## Diagrams and pictures
 
 ![block diagram](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Blockdiagramm.png) 
 
-![PCB Top](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Pi-XO.png)
-
 ![Circuit diagram](https://github.com/GrazerComputerClub/Pi-XO/raw/master/circuit_diagram.png)
+
+![PCB Top](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Pi-XO.png)
 
 ![Pi-XO](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Pi-XO.jpg)
 
-# Assembling
+## Assembling
 
-## Components list
+### Components list
 	
  1 x Female pin header socket 2x20  (JP1)
  1 x Switch 3-pin (S9, Device on/off)  
