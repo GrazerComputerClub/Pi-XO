@@ -48,6 +48,8 @@ Rev. 01. board  error:
 - Fn-Button and P-Button: Shutdown
 
 
+![block diagram](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Blockdiagramm.png) 
+
 ![PCB Top](https://github.com/GrazerComputerClub/Pi-XO/raw/master/Pi-XO.png)
 
 ![Circuit diagram](https://github.com/GrazerComputerClub/Pi-XO/raw/master/circuit_diagram.png)
