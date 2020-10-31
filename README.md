@@ -3,6 +3,8 @@
 Raspberry Pi Zero game console for use with PICO-8.   
 Development discontinued  
 
+If you are interested in a PCB board or components, please contact us via our email.
+
 ## In Action
 
 [![Pi-XO Gaming](https://img.youtube.com/vi/vgGREFB0JgY/0.jpg)](https://www.youtube.com/watch?v=vgGREFB0JgY)
